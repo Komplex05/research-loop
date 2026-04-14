@@ -1,0 +1,13 @@
+{
+  "name": "research-loop",
+  "version": "1.0.0",
+  "description": "Automated research agent using Claude API",
+  "type": "module",
+  "scripts": {
+    "start": "node run.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.0.0"
+  }
+}
