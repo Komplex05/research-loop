@@ -1,13 +1,13 @@
 {
   "name": "research-loop",
-  "version": "1.0.0",
-  "description": "Automated research agent using Claude API",
+  "version": "2.0.0",
+  "description": "Scheduled self-critique research loop using Claude",
   "type": "module",
   "scripts": {
-    "start": "node run.mjs"
+    "start": "node run.mjs",
+    "research": "node run.mjs"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.39.0",
-    "dotenv": "^16.0.0"
+    "@anthropic-ai/sdk": "^0.85.0"
   }
 }
